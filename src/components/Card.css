@@ -1,0 +1,40 @@
+.user-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px black solid;
+    padding: 3rem;
+    width: 55vw;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.img-container{
+    width: 130px;
+    height: 130px;
+    border: 1px black solid;
+    border-radius: 50%;
+}
+.img-container img{
+    background-repeat: no-repeat;
+}
+
+.user_content{
+    margin-left: 2rem;
+    padding: -1rem;
+    display: flex;
+    flex-direction: column;
+}
+.id{
+    font-size: 1.2rem;
+    margin: 0rem 0 0.3rem 0;
+}
+.name{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+}
+.email{
+    font-size: 1.5rem;
+    color: red;
+}
