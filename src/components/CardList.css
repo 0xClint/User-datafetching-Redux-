@@ -8,12 +8,6 @@
     align-items: center;
 }
 
-.user_card{
-    height: 40vh;
-    width: 100vw;
-}
-
-
 .user_list-container{
     width: 70vw;
     display: flex;
